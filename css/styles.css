@@ -1,0 +1,489 @@
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, ol, ul, li, form, label, legend, caption, aside, details, figcaption, figure, footer,header, hgroup, menu, nav, section, summary {
+    margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+a img {border:none}
+
+aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {display: block}
+
+/**************************************************
+			     主体设置
+***************************************************/
+
+html, body {
+	width:100%;
+	height:100%;
+	}
+
+html, body{
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size: 13px;
+	color: rgb(0, 0, 0);
+	margin:0 0 1px;
+	line-height: 1.5;
+   background-image:url(images/bg1.png); 
+	background-position:left top;
+	background-repeat:repeat;
+}
+
+p {
+	margin-bottom:7px;
+	}
+	
+a, p a {
+	text-decoration:none;
+	}
+	
+a:hover {
+   text-decoration:underline; 
+}	
+
+h1, h2, h3, h4, h5, h6 {
+	font-family:Georgia, "Times New Roman", Times, serif;
+    font-weight: normal;
+	position:relative;
+}
+	
+h1{
+	font-size: 35px;
+	line-height:1.6;
+	
+	text-transform:capitalize;
+	text-align:left;
+	margin-left:40px;
+	border-bottom:1px dotted black;
+}
+	h1 span{
+	line-height:1.7px;
+	color:rgb(0, 0, 0);
+	font-size:14px;
+	text-transform:none;
+	display:block;
+}
+
+h2{
+	font-size: 18px;
+	line-height:1.7;
+	color:black;
+	text-align:left;
+	width:350px;
+	padding-top:8px;
+	margin-left:40px;
+}
+
+	
+h3{
+	font-size: 28px;
+	line-height:1.6;
+	color:black;
+	text-transform:none;
+	text-align:left;
+	background-color:transparent;
+	padding-top:12px;
+	margin-bottom:9px;
+	border-bottom:1px dotted black;
+}
+	
+ h3 span{
+	font-size: 12px;
+	color: black;
+	text-transform:capitalize;
+	height:24px;
+	margin-top:15px;
+	text-align:left;
+    display:block;
+}
+
+h4{
+	font-size: 18px;
+	line-height:1.7;
+	color:black;
+	text-align:left;
+	width:350px;
+	padding-top:8px;
+	margin-bottom:12px;
+}
+	
+h4 span{
+	font-weight:bold;
+	font-size:15px;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	background-color:#A3BFA7;
+	padding:8px;
+	margin-left:20px;
+	-webkit-border-radius: .5em; 
+	-moz-border-radius: .5em;
+	border-radius: .5em;
+}
+
+/***************************************************
+			    大层
+***************************************************/
+
+#container, #container_left, #container_right{
+	position: relative;
+	width:100%;
+}
+
+	#container{
+		position:relative;
+		width:980px;
+		margin:0 auto;
+		text-align:left;
+		background-color:#79976B;
+		padding:15px;
+		overflow: hidden;
+		-moz-box-shadow: 0 0 5px 5px #b59898;
+		-webkit-box-shadow: 0 0 5px 5px #b7b0b0;
+		box-shadow: 0 0 5px 5px #7c848d;
+    }
+
+.group1 {
+	float: left;
+	width: 613px;
+	position: relative;
+	background:#F8F8EC;
+	padding:15px;
+	margin-bottom:10px;
+}
+	
+.group2 {
+	float: right;
+	width: 277px;
+	position: relative;
+	background:#BAC680;
+	padding:15px;
+	margin-bottom:10px;
+	margin-left:30px;
+}
+.group3 {
+	
+	width: 945px;
+	position: relative;
+	background:#F8F8EC;
+	padding:15px;
+	margin-bottom:10px;
+}
+	
+		
+.group_bannner_left {
+	width: 380px;
+	position: absolute;
+	top:146px;
+	left:50px;
+	background:transparent;
+	margin-top:50px;
+}
+			
+header{
+	position: relative;
+	float:left;
+	width: 100%;
+	height:100px;
+}
+	
+/**************************************************
+				图片介绍层
+***************************************************/	
+	
+	#intro{
+	width: 960px;
+	position: relative;
+	float: left;
+	height: 480px;
+	padding:10px;
+	background:hwb(0 100% 0%);
+	margin-top:17px;
+	-webkit-border-radius: .5em; 
+	-moz-border-radius: .5em;
+	border-radius: .5em;
+}
+
+/***************************************************
+				   文字加图片大层
+***************************************************/	
+
+.holder_content {
+	position: relative;
+	float: left;
+	width: 100%;
+	margin-bottom:8px;
+	background:white;
+}
+	
+.holder_content_separator{
+	margin-bottom:20px;
+}
+	
+/***************************************************
+			        文字介绍旁边的图片层
+***************************************************/
+
+
+	a.photo_hover2{
+	position:relative;
+	float: left;
+	margin:5px 13px 8px 0;
+	padding: 8px;
+	-webkit-border-radius: .5em; 
+	-moz-border-radius: .5em;
+	border-radius: .5em;
+}
+	a.photo_hover2{ 
+	background-color:white;
+	border: 1px solid #E1E1E1;
+
+}
+	a.photo_hover2:hover {
+	border: 1px solid #E1E1E1;
+}
+
+/***************************************************
+				   一段文字加图片介绍一小层
+***************************************************/	
+
+.holder_gallery {
+	width:610px;
+	float:left;
+	margin-right:10px;
+	padding:0;
+}		
+
+/**************************************************
+			        页脚
+***************************************************/
+
+footer{
+	position:relative;
+	height:90px;
+	clear:both;
+	width: 1100px;
+	left: 100px;
+	margin-bottom:18px;
+	background-color:rgb(255, 255, 255);
+	background:transparent;
+}
+
+#FooterTwo{
+	width: 800px;
+	right: 0px; 
+	top:24px;
+	color:rgb(35, 54, 34);
+	position: absolute;
+	
+}
+
+
+
+
+
+/***************************************************
+				       导航菜单
+***************************************************/
+
+nav{
+	position:absolute;
+	width:580px;
+	top:25px;
+	right:0;
+	text-shadow: 0 1px 1px rgba(0,0,0,.3);
+	-webkit-border-radius: .5em; 
+	-moz-border-radius: .5em;
+	border-radius: .5em;
+	-webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+	-moz-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+	box-shadow: 0 1px 2px rgba(0,0,0,.2);
+	background:black;
+}
+
+nav ul li{
+	float: left;
+	margin-left:16px;
+	line-height:normal;
+}
+
+nav ul li a{
+	font-size: 20px;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	color: white;
+	text-transform:capitalize;
+	font-weight:normal;
+	display:block;
+	padding-bottom:8px;
+	padding-top:15px;
+	background-color:transparent;
+	margin-top:0px;
+	margin-right:6px;
+    text-decoration:none;
+}
+
+nav ul li a:hover{
+	color: white;
+	text-decoration:underline;
+}
+
+nav ul li a.current{
+	background-color:#E2C351;
+	padding:15px;
+}
+
+.content_menu{
+	float: left;
+	width: 274px;
+	margin-top:-10px;
+	margin-bottom:15px;
+}
+	
+.content_menu ul{	
+	margin: 0px;
+	padding: 0px;
+	float: none;
+}
+
+.content_menu ul li{
+	float: none;
+	padding-bottom: 16px;
+}
+
+
+
+/***************************************************
+				   小细节
+***************************************************/
+
+#logo{
+	position:relative;
+   	float:left;
+   	top:10px;
+	left:0px;
+	width:250px;
+	height:160px;
+}
+
+.clearing{
+	clear: both;
+	display: inline;
+	width: 100%;
+	height: 0;
+	overflow:hidden;
+}
+
+ 
+.readmore{
+	font-weight:bold;
+	font-size:15px;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	color:#333333;
+}
+
+.readmore a {
+   color:#333333;
+}
+
+.holder_news {
+	width:274px;
+	float:left;
+	border-bottom:1px dotted black;
+	margin-bottom:10px;
+	padding-bottom:12px;
+}		
+
+
+/**************************************************************
+    改变图片大小
+ ***********************************************************/
+.Changesize{	
+    transition: all 0.2s linear;
+}
+.Changesize:hover{
+	transform: scale(2.0);
+    transition: all 0.2s linear;
+}
+
+/**************************************************************
+    表格
+ ***********************************************************/
+
+.cellcolor {
+	background-color: #E2C351;
+  }
+
+  .center {
+	text-align:       center;
+  }
+  
+  .right {
+	text-align:       right;
+  }
+
+  th {
+	background-color: #E2C351;
+  }
+
+  table {
+	margin-left:      20px;
+	margin-right:     20px;
+	border:           thin solid black;
+	caption-side:     bottom;
+	border-collapse:  collapse;
+  }
+  
+  table table th {
+	background-color: white;
+  }
+  
+  td, th {
+	border:           thin dotted gray;
+	padding:          5px;
+  }
+  
+/**************************************************************
+    表单
+ ***********************************************************/
+
+
+  body {
+	background: #efe5d0 url("images/bkpp3.jpeg") top left;
+	margin: 20px;
+}
+
+form {
+	display: table;
+	padding: 10px;
+	border: thin dotted #7e7e7e;
+	background-color: #BAC680;
+}
+
+div.tableRow {
+	display: table-row;
+}
+
+div.tableRow > p, div.tableRow > label, div.tableRow > input {
+	display: table-cell;
+	vertical-align: top;
+	padding: 3px;
+}
+div.tableRow label:first-child {
+	text-align: right;
+}
+form textarea {
+	display: table-cell;
+	width: 500px;
+	height: 200px;
+}
+legend {
+	font-weight: bold;
+}
